@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		301DD2E92FA7E1EC00EF5F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301DD2D22FA7E1EA00EF5F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301DD2D92FA7E1EA00EF5F92;
+			remoteInfo = BarcodeScanner;
+		};
+		301DD2F32FA7E1EC00EF5F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301DD2D22FA7E1EA00EF5F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301DD2D92FA7E1EA00EF5F92;
+			remoteInfo = BarcodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301DD2DA2FA7E1EA00EF5F92 /* MacQRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacQRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301DD2E82FA7E1EC00EF5F92 /* MacQRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacQRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		301DD2F22FA7E1EC00EF5F92 /* MacQRScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacQRScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		301DD2DC2FA7E1EA00EF5F92 /* MacQRScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacQRScanner;
+			sourceTree = "<group>";
+		};
+		301DD2EB2FA7E1EC00EF5F92 /* MacQRScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacQRScannerTests;
+			sourceTree = "<group>";
+		};
+		301DD2F52FA7E1EC00EF5F92 /* MacQRScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacQRScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301DD2D72FA7E1EA00EF5F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2E52FA7E1EC00EF5F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2EF2FA7E1EC00EF5F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301DD2D12FA7E1EA00EF5F92 = {
+			isa = PBXGroup;
+			children = (
+				301DD2DC2FA7E1EA00EF5F92 /* MacQRScanner */,
+				301DD2EB2FA7E1EC00EF5F92 /* MacQRScannerTests */,
+				301DD2F52FA7E1EC00EF5F92 /* MacQRScannerUITests */,
+				301DD2DB2FA7E1EA00EF5F92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		301DD2DB2FA7E1EA00EF5F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301DD2DA2FA7E1EA00EF5F92 /* MacQRScanner.app */,
+				301DD2E82FA7E1EC00EF5F92 /* MacQRScannerTests.xctest */,
+				301DD2F22FA7E1EC00EF5F92 /* MacQRScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		301DD2D92FA7E1EA00EF5F92 /* MacQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301DD2FC2FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScanner" */;
+			buildPhases = (
+				301DD2D62FA7E1EA00EF5F92 /* Sources */,
+				301DD2D72FA7E1EA00EF5F92 /* Frameworks */,
+				301DD2D82FA7E1EA00EF5F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				301DD2DC2FA7E1EA00EF5F92 /* MacQRScanner */,
+			);
+			name = MacQRScanner;
+			packageProductDependencies = (
+			);
+			productName = BarcodeScanner;
+			productReference = 301DD2DA2FA7E1EA00EF5F92 /* MacQRScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		301DD2E72FA7E1EC00EF5F92 /* MacQRScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301DD2FF2FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScannerTests" */;
+			buildPhases = (
+				301DD2E42FA7E1EC00EF5F92 /* Sources */,
+				301DD2E52FA7E1EC00EF5F92 /* Frameworks */,
+				301DD2E62FA7E1EC00EF5F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301DD2EA2FA7E1EC00EF5F92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				301DD2EB2FA7E1EC00EF5F92 /* MacQRScannerTests */,
+			);
+			name = MacQRScannerTests;
+			packageProductDependencies = (
+			);
+			productName = BarcodeScannerTests;
+			productReference = 301DD2E82FA7E1EC00EF5F92 /* MacQRScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		301DD2F12FA7E1EC00EF5F92 /* MacQRScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301DD3022FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScannerUITests" */;
+			buildPhases = (
+				301DD2EE2FA7E1EC00EF5F92 /* Sources */,
+				301DD2EF2FA7E1EC00EF5F92 /* Frameworks */,
+				301DD2F02FA7E1EC00EF5F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301DD2F42FA7E1EC00EF5F92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				301DD2F52FA7E1EC00EF5F92 /* MacQRScannerUITests */,
+			);
+			name = MacQRScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = BarcodeScannerUITests;
+			productReference = 301DD2F22FA7E1EC00EF5F92 /* MacQRScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301DD2D22FA7E1EA00EF5F92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					301DD2D92FA7E1EA00EF5F92 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					301DD2E72FA7E1EC00EF5F92 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 301DD2D92FA7E1EA00EF5F92;
+					};
+					301DD2F12FA7E1EC00EF5F92 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 301DD2D92FA7E1EA00EF5F92;
+					};
+				};
+			};
+			buildConfigurationList = 301DD2D52FA7E1EA00EF5F92 /* Build configuration list for PBXProject "MacQRScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 301DD2D12FA7E1EA00EF5F92;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 301DD2DB2FA7E1EA00EF5F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301DD2D92FA7E1EA00EF5F92 /* MacQRScanner */,
+				301DD2E72FA7E1EC00EF5F92 /* MacQRScannerTests */,
+				301DD2F12FA7E1EC00EF5F92 /* MacQRScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301DD2D82FA7E1EA00EF5F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2E62FA7E1EC00EF5F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2F02FA7E1EC00EF5F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301DD2D62FA7E1EA00EF5F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2E42FA7E1EC00EF5F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DD2EE2FA7E1EC00EF5F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301DD2EA2FA7E1EC00EF5F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301DD2D92FA7E1EA00EF5F92 /* MacQRScanner */;
+			targetProxy = 301DD2E92FA7E1EC00EF5F92 /* PBXContainerItemProxy */;
+		};
+		301DD2F42FA7E1EC00EF5F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301DD2D92FA7E1EA00EF5F92 /* MacQRScanner */;
+			targetProxy = 301DD2F32FA7E1EC00EF5F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		301DD2FA2FA7E1EC00EF5F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		301DD2FB2FA7E1EC00EF5F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		301DD2FD2FA7E1EC00EF5F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MyIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MacQRScanner/MacQRScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac QR Scanner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		301DD2FE2FA7E1EC00EF5F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MyIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MacQRScanner/MacQRScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac QR Scanner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		301DD3002FA7E1EC00EF5F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacQRScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacQRScanner";
+			};
+			name = Debug;
+		};
+		301DD3012FA7E1EC00EF5F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacQRScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacQRScanner";
+			};
+			name = Release;
+		};
+		301DD3032FA7E1EC00EF5F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacQRScanner;
+			};
+			name = Debug;
+		};
+		301DD3042FA7E1EC00EF5F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dantools.MacQRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacQRScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301DD2D52FA7E1EA00EF5F92 /* Build configuration list for PBXProject "MacQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301DD2FA2FA7E1EC00EF5F92 /* Debug */,
+				301DD2FB2FA7E1EC00EF5F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301DD2FC2FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301DD2FD2FA7E1EC00EF5F92 /* Debug */,
+				301DD2FE2FA7E1EC00EF5F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301DD2FF2FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301DD3002FA7E1EC00EF5F92 /* Debug */,
+				301DD3012FA7E1EC00EF5F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301DD3022FA7E1EC00EF5F92 /* Build configuration list for PBXNativeTarget "MacQRScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301DD3032FA7E1EC00EF5F92 /* Debug */,
+				301DD3042FA7E1EC00EF5F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301DD2D22FA7E1EA00EF5F92 /* Project object */;
+}
