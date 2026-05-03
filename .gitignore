@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+
+# User-specific data
+*.xcuserstate
+*.xcuserdata/
+
+# Workspace user data
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.tmp
+
+# CocoaPods (if you ever use it)
+Pods/
+
+# Carthage (if you ever use it)
+Carthage/Build/
+
+# Fastlane (optional)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Archives
+*.xcarchive
+
+# App packaging
+*.ipa
+
+# Firebase / configs (if you ever add them)
+GoogleService-Info.plist
